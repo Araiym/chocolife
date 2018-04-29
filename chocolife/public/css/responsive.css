@@ -1,0 +1,200 @@
+/*https://chocolife.me
+Design and Code Created By Kassymbayev Yertay*/
+@media screen and (max-width:768px){
+  .wall-logo img{
+    width: 150px;
+    margin-top: 200px;
+  }
+
+  #help-bar{
+    display: none;
+  }
+
+  .menu{
+    width: 100vw;
+    margin-left: -15px;
+    background:#232323;
+    padding-top: 45px;
+    margin-top: 0px;
+    display: none;
+    transition: all 1s;
+  }
+
+  .menu_active{
+    position: fixed;
+    display: block;
+    z-index: 100;
+    transition: all 1s;
+  }
+
+  .menu>ul>li{
+    display: block;
+  }
+
+  .menu>ul>li img{
+      display: none;
+    }
+
+  .menu>ul>li:last-child{
+    margin-right: 0;
+  }
+
+  .menu>ul>li>a{
+    position:relative;
+    bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 55px;
+  }
+
+  .menu>ul>li>a:hover{
+    color: #ed1c24;
+    transition: all 0.5s;
+  }
+
+  .active-btn{
+    display: inline-block;
+    align-items: center;
+  }
+
+  .blocks{
+    display: block;
+  }
+  .block{
+    width: 97%;
+    height: 300px;
+    background: red;
+    margin: 5px;
+  }
+
+  .search-input{
+    width: 35%;
+    height: 35px;
+    position: relative;
+    border: 0;
+    padding: 5px 5px;
+  }
+
+  .search-btn{
+    width: 20%;
+    height: 35px;
+    position: absolute;
+    border: 0;
+    background: #ea1c25;
+    color: #fff;
+  }
+
+  .products{
+    display:block;
+  }
+
+  .price h3{
+    margin-top: 25px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .use-day{
+    font-size: 13px;
+  }
+
+  .buy-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 23%;
+    margin-top: 15px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .wall-logo img{
+    width: 150px;
+    margin-top: 200px;
+  }
+
+  #help-bar{
+    display: none;
+  }
+
+  .menu{
+    width: 100vw;
+    margin-left: -15px;
+    background:#232323;
+    padding-top: 45px;
+    margin-top: 0px;
+    display: none;
+    transition: all 1s;
+  }
+
+  .menu_active{
+    position: fixed;
+    display: block;
+    z-index: 100;
+    transition: all 1s;
+  }
+
+  .menu>ul>li{
+    display: block;
+  }
+
+  .menu>ul>li img{
+      display: none;
+    }
+
+  .menu>ul>li:last-child{
+    margin-right: 0;
+  }
+
+  .menu>ul>li>a{
+    position:relative;
+    bottom: 30px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 55px;
+  }
+
+  .menu>ul>li>a:hover{
+    color: #ed1c24;
+    transition: all 0.5s;
+  }
+
+  .active-btn{
+    display: inline-block;
+    align-items: center;
+  }
+
+  .blocks{
+    display: block;
+  }
+  .block{
+    width: 97%;
+    height: 300px;
+    background: red;
+    margin: 5px;
+  }
+
+  .search-input{
+    width: 55%;
+    height: 35px;
+    position: relative;
+    border: 0;
+    padding: 5px 5px;
+  }
+
+  .search-btn{
+    width: 15%;
+    height: 35px;
+    position: absolute;
+    border: 0;
+    background: #ea1c25;
+    color: #fff;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/*https://chocolife.me
+Design and Code Created By Kassymbayev Yertay*/
